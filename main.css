@@ -41,7 +41,7 @@ body {
 
 .card {
     margin-left: calc(50vw - 175px);
-    margin-top: calc(50vh - 313.49px);
+    margin-top: calc(50vh - 301.74px);
     margin-bottom: 10px;
     background: var(--white);
     width: 350px;
@@ -146,6 +146,6 @@ body {
         height: 450px;
         margin-left: calc(50% - 300px);
         margin-bottom: 15px;
-        margin-top: calc(50vh - 239.25px);
+        margin-top: calc(50vh - 225px);
     }
 }

@@ -16,9 +16,11 @@
   <nav role="banner"></nav>
   <header role="navigation"></header>
   <main role="main" id="main">
-    <div class="card" id="card-id">
-      <div class="perfume-mobile"><img src="images/image-product-mobile.jpg" alt="perfume" width="350" /></div>
-      <div class="perfume-desktop"><img src="images/image-product-desktop.jpg" alt="perfume" width="300" /></div>
+    <div class="card">
+      <picture class="perfume-image">
+        <source media="(min-width:992px)" srcset="images/image-product-desktop.jpg">
+        <img src="images/image-product-mobile.jpg" alt="perfume image">
+      </picture>
       <div class="text-container">
         <h2>PERFUME</h2>
         <h1>Gabrielle Essence<br/>Eau De Parfum</h1>

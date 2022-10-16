@@ -66,6 +66,13 @@ body {
     display: none;
 }
 
+.card>.perfume-image>img {
+    border-top-left-radius: 10px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    width: 350px;
+}
+
 .text-container {
     margin-top: 20px;
     margin-left: 25px;
@@ -133,12 +140,6 @@ body {
 
 /* Desktop Design */
 @media only screen and (min-width: 992px) {
-    .perfume-mobile {
-        display: none;
-    }
-    .perfume-desktop {
-        display: block;
-    }
     .card {
         display: flex;
         margin: 0;
@@ -147,5 +148,11 @@ body {
         margin-left: calc(50% - 300px);
         margin-bottom: 15px;
         margin-top: calc(50vh - 225px);
+    }
+
+    .card>.perfume-image>img {
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        width: 300px;
     }
 }
